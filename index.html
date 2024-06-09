@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -11,32 +11,49 @@
 
 
 <body>
-    <div class="topNavBar">
-        <a href="#contact">Contact</a>
-        <a href="#news">My Work</a>
-        <a class="active" href="#home">About Me</a>
-    </div>
-
+    
+    <section>
+        <div class="topNavBar">
+            <img src="logo.svg" alt="Logo" class="logo">
+            <div class="nav-links">
+                <a href="#contact">Contact</a>
+                <a href="#news">My Work</a>
+                <a class="active" href="#home">About Me</a>
+            </div>
+        </div>
+    </section>
+    
     <!--i want background image to be behind this section here--> 
     <section class="row">
-        
         <div class="myname">
         <h1>GARY CHEN</h1>
         <h2>Software Engineer</h2>
         </div>
-
     </section>
     <!--End of image-->
-
 
     <section id="portfolioSection">
         <h1>My Work</h1>
     </section>
 
-    <section id="3x3">
-        <div class="column"></div>
+    <section class="grid-container">
+        <div class="grid-3x3">
+            <div class="column1"></div>
+            <div class="column2"></div>
+            <div class="column3">Column 3</div>
+            <div class="column4">Column 4</div>
+            <div class="column5">Column 5</div>
+            <div class="column6">Column 6</div>
+            <div class="column7">Column 7</div>
+            <div class="column8">Column 8</div>
+            <div class="column9">Column 9</div>
+        </div>
     </section>
 
+    <section id="contactSection">
+        <h1>Contact Me</h1>
+    </section>
 
 </body>
 </html>
+
