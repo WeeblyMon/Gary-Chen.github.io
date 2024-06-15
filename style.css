@@ -24,6 +24,25 @@
   position: relative;
 }
 
+.grid-3x3 > .column4 {
+  background-image: url('DEKSTOPMAN.svg'); /* Background image for column 3 */
+  background-size: auto 280px;
+  background-color: #E9E2DA;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  color: white; /* Adjust text color if needed for better visibility */
+  position: relative;
+}
+
+.grid-3x3 > .column5 {
+  background-image: url('huawei.jpg'); /* Background image for column 3 */
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  color: white; /* Adjust text color if needed for better visibility */
+  position: relative;
+}
+
 .grid-3x3 {
   display: grid;
   grid-template-columns: repeat(3, var(--grid-item-width)); /* 3 columns */
